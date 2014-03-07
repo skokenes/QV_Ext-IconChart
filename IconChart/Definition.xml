@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<ExtensionObject Label="IconChart" Description="Represents numbers in a graphic form" Type="object">
+  <Initiate Name="Chart.Text.0.Content" Value="1" />
+  <Initiate Name="Chart.Text.1.Content" Value="1" />
+  <Initiate Name="Chart.Text.2.Content" Value="http://dl.dropbox.com/u/1718693/Sun%20icon.png"/>
+  <Initiate Name="Chart.Text.3.Content" Value="0"/>
+  <Initiate Name="Chart.Text.4.Content" Value="0"/>
+  <Initiate Name="Chart.BgColor.ColorHex" value="#CCC" />
+ 
+  <!--No of Rows-->
+  <Text Label="Rows" Type="text" />
+  
+   <!--No of Columns-->
+  <Text Label="Columns" Type="text" />
+  
+   <!--Icon URL-->
+  <Text Label="Image URL" Type="text" />
+  
+  <!-- Fill Direction -->
+ <Text Label="Fill Direction" Initial="0" Type="select" Select="0,1,2,3" 
+    	SelectLabel="Left to Right; Top to Bottom,Left to Right; Bottom to Top,Right to Left; Top to Bottom,Right to Left; Bottom to Top" />
+		
+  <!--Metric-->
+  <Text Label="Number of icons" Type="text" />
+		
+  <PropertiesPage Version="11" File="CustomProperties.qvpp"/> 
+</ExtensionObject>
